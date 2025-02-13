@@ -9,10 +9,6 @@
 
 ### Executing program
 
-Dataset
-```
-brew services start mongodb-community@8.0
-```
 Terminal
 ```python
 python app.py
@@ -44,12 +40,15 @@ http://127:0.0.1:5000
 ### Dependencies
 - VScode, pycharm
 - Python 3.9
-
+- MongoDB Compass 1.45.2
 ### Executing program
 ```python
 python app.py
 ```
-
+Dataset
+```
+brew services start mongodb-community@8.0
+```
 Input address
 ```
 http://127:0.0.1:5000
