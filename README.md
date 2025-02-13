@@ -46,8 +46,13 @@ http://127:0.0.1:5000
 python app.py
 ```
 Dataset
+ open mongo service
 ```
 brew services start mongodb-community@8.0
+ close mongo service
+```
+brew services stop mongodb-community@8.0
+```
 ```
 Input address
 ```
